@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.parallax-section {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#home {
+  background-image: url("home.jpg"); /* Replace with your image */
+}
+
+#skills {
+  background-image: url("skills.jpg"); /* Replace with your image */
+}
+
+#blog {
+  background-image: url("blog.jpg"); /* Replace with your image */
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
